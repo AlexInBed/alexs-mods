@@ -12,6 +12,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> ADAMANTIUM = ITEMS.register("adamantium", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_ADAMANTIUM = ITEMS.register("raw_adamantium", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ADAMANTIUM_CLAWS = ITEMS.register("adamantium_claws", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

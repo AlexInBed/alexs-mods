@@ -53,6 +53,7 @@ public class AlexsMod {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept((ModItems.ADAMANTIUM));
             event.accept((ModItems.RAW_ADAMANTIUM));
+            event.accept((ModItems.ADAMANTIUM_CLAWS));
         }
     }
 

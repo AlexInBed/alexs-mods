@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "A": {
+      "item": "alexsmod:adamantium"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "AAA",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "alexsmod:adamantium_claws"
+  }
+}
